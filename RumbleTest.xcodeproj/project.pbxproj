@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		64D6A91B25539E0F00C4F538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A91A25539E0F00C4F538 /* AppDelegate.m */; };
-		64D6A91E25539E0F00C4F538 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A91D25539E0F00C4F538 /* SceneDelegate.m */; };
 		64D6A92125539E0F00C4F538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A92025539E0F00C4F538 /* ViewController.m */; };
-		64D6A92425539E0F00C4F538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D6A92225539E0F00C4F538 /* Main.storyboard */; };
 		64D6A92625539E1200C4F538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D6A92525539E1200C4F538 /* Assets.xcassets */; };
 		64D6A92925539E1200C4F538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D6A92725539E1200C4F538 /* LaunchScreen.storyboard */; };
 		64D6A92C25539E1200C4F538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A92B25539E1200C4F538 /* main.m */; };
 		64D6A93625539E1300C4F538 /* RumbleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A93525539E1300C4F538 /* RumbleTestTests.m */; };
 		64D6A94125539E1300C4F538 /* RumbleTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A94025539E1300C4F538 /* RumbleTestUITests.m */; };
+		64D6A9582553A05600C4F538 /* 手势.md in Resources */ = {isa = PBXBuildFile; fileRef = 64D6A9572553A05600C4F538 /* 手势.md */; };
+		64D6A9642553A13900C4F538 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A9632553A13900C4F538 /* GestureView.m */; };
+		64D6A9732553A72D00C4F538 /* HDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D6A9722553A72D00C4F538 /* HDTableView.m */; };
+		64D6A97B2553AE2D00C4F538 /* 隐式动画.md in Resources */ = {isa = PBXBuildFile; fileRef = 64D6A97A2553AE2D00C4F538 /* 隐式动画.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,8 @@
 		64D6A91625539E0F00C4F538 /* RumbleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RumbleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D6A91925539E0F00C4F538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64D6A91A25539E0F00C4F538 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64D6A91C25539E0F00C4F538 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		64D6A91D25539E0F00C4F538 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		64D6A91F25539E0F00C4F538 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		64D6A92025539E0F00C4F538 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		64D6A92325539E0F00C4F538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64D6A92525539E1200C4F538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D6A92825539E1200C4F538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64D6A92A25539E1200C4F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +53,12 @@
 		64D6A93C25539E1300C4F538 /* RumbleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumbleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D6A94025539E1300C4F538 /* RumbleTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RumbleTestUITests.m; sourceTree = "<group>"; };
 		64D6A94225539E1300C4F538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D6A9572553A05600C4F538 /* 手势.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "手势.md"; sourceTree = "<group>"; };
+		64D6A9622553A13900C4F538 /* GestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		64D6A9632553A13900C4F538 /* GestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		64D6A9712553A72D00C4F538 /* HDTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDTableView.h; sourceTree = "<group>"; };
+		64D6A9722553A72D00C4F538 /* HDTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDTableView.m; sourceTree = "<group>"; };
+		64D6A97A2553AE2D00C4F538 /* 隐式动画.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "隐式动画.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +109,16 @@
 		64D6A91825539E0F00C4F538 /* RumbleTest */ = {
 			isa = PBXGroup;
 			children = (
+				64D6A97A2553AE2D00C4F538 /* 隐式动画.md */,
+				64D6A9572553A05600C4F538 /* 手势.md */,
 				64D6A91925539E0F00C4F538 /* AppDelegate.h */,
 				64D6A91A25539E0F00C4F538 /* AppDelegate.m */,
-				64D6A91C25539E0F00C4F538 /* SceneDelegate.h */,
-				64D6A91D25539E0F00C4F538 /* SceneDelegate.m */,
 				64D6A91F25539E0F00C4F538 /* ViewController.h */,
 				64D6A92025539E0F00C4F538 /* ViewController.m */,
-				64D6A92225539E0F00C4F538 /* Main.storyboard */,
+				64D6A9622553A13900C4F538 /* GestureView.h */,
+				64D6A9632553A13900C4F538 /* GestureView.m */,
+				64D6A9712553A72D00C4F538 /* HDTableView.h */,
+				64D6A9722553A72D00C4F538 /* HDTableView.m */,
 				64D6A92525539E1200C4F538 /* Assets.xcassets */,
 				64D6A92725539E1200C4F538 /* LaunchScreen.storyboard */,
 				64D6A92A25539E1200C4F538 /* Info.plist */,
@@ -239,9 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D6A97B2553AE2D00C4F538 /* 隐式动画.md in Resources */,
 				64D6A92925539E1200C4F538 /* LaunchScreen.storyboard in Resources */,
 				64D6A92625539E1200C4F538 /* Assets.xcassets in Resources */,
-				64D6A92425539E0F00C4F538 /* Main.storyboard in Resources */,
+				64D6A9582553A05600C4F538 /* 手势.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +277,9 @@
 			files = (
 				64D6A92125539E0F00C4F538 /* ViewController.m in Sources */,
 				64D6A91B25539E0F00C4F538 /* AppDelegate.m in Sources */,
+				64D6A9642553A13900C4F538 /* GestureView.m in Sources */,
+				64D6A9732553A72D00C4F538 /* HDTableView.m in Sources */,
 				64D6A92C25539E1200C4F538 /* main.m in Sources */,
-				64D6A91E25539E0F00C4F538 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64D6A92225539E0F00C4F538 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64D6A92325539E0F00C4F538 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64D6A92725539E1200C4F538 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,14 +443,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RADML45TTY;
 				INFOPLIST_FILE = RumbleTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hundun.cn.RumbleTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hundun.hundunyanxishe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = develop_pp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,14 +464,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RADML45TTY;
 				INFOPLIST_FILE = RumbleTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hundun.cn.RumbleTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.hundun.hundunyanxishe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = develop_pp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
